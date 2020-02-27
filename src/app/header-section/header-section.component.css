@@ -1,0 +1,112 @@
+.header {
+  height: 100vh;
+  background: linear-gradient(hsl(193, 100%, 96%), hsl(193, 100%, 96%)),
+    url('../../assets/images/bg-hero-desktop.svg') no-repeat center center /cover;
+  background-blend-mode: overlay;
+}
+
+.btn-round-lg {
+  border-radius: 22.5px;
+}
+
+.header-logo {
+  float: left;
+  padding: 0 32px;
+}
+
+.header-btn {
+  float: right;
+  padding: 0 32px;
+}
+
+.btn-lg {
+  padding: 8px 48px;
+}
+
+.btn-custom {
+  color: hsl(192, 100%, 9%);
+  background-color: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all .5s;
+  font-size: 14px;
+}
+
+#btn-custom-hover:hover {
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0px 15px 20px hsl(322, 100%, 66%);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.banner-section {
+  clear: both;
+  margin: 0;
+  padding-left: 60px;
+}
+
+.banner-section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: hsl(192, 100%, 9%);
+}
+
+.banner-section p{
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* padding-top: 2rem; */
+    letter-spacing: 1px;
+}
+
+.btn-banner-custom{
+  background-color:hsl(322, 100%, 66%);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all .5s;
+  font-size: 14px;
+  padding: 16px 60px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:576px){
+    .header{
+        height: auto;
+    }
+
+    .header-logo, .header-btn{
+      padding: 0;
+    }
+
+    .header-logo{
+      width: 150px;
+      margin-left: 8px;
+    }
+
+    .header-btn{
+      margin-right: 8px;
+    }
+    
+    #img-fluid-logo{
+      max-width: 65%;
+    }
+
+    .btn-lg{
+      padding: 4px 24px;
+    }
+
+    .banner-section{
+      padding-left: 0;
+    }
+
+    .banner-section h3{
+      letter-spacing: 0;
+    }
+
+    .banner-section p{
+      font-size: 14px;
+    }
+
+    
+}

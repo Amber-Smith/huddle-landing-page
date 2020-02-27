@@ -1,0 +1,82 @@
+.row {
+  margin-right: 0;
+}
+
+.w-sm-75 {
+  width: 75%;
+}
+
+.card-body {
+  padding: 4rem;
+}
+
+.card-shadow {
+  -webkit-box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.44);
+}
+
+.card-h {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: hsl(192, 100%, 9%);
+}
+
+.card-paragraph {
+  color: hsl(208, 11%, 55%);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.btn-about-custom {
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all .5s;
+  font-size: 14px;
+  padding: 8px 32px;
+}
+
+.btn-round-lg {
+  border-radius: 22.5px;
+}
+
+.w-55 {
+  width: 55%
+}
+
+.position-card {
+  position: relative;
+  top: 9.5rem;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:576px) {
+
+  .align-section {
+    text-align: center;
+  }
+
+  .align-row {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .w-sm-75 {
+    width: auto;
+  }
+
+  .card-paragraph {
+    font-size: 14px;
+  }
+
+  .w-55 {
+    width: auto;
+  }
+
+}

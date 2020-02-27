@@ -1,0 +1,42 @@
+.bg-footer {
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 8rem;
+}
+
+.logo-white {
+  filter: brightness(0) invert(1);
+}
+
+.footer-location-p {
+  /* display: inline; */
+  margin-left: 10px;
+}
+
+.footer-location-img {
+  float: left;
+}
+
+.footer-link {
+  color: #eee;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.ul-list-style{
+    margin-top: 34px;
+}
+
+.icon-circle{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    margin-right: 16px;
+}
+
+/* Media Queries */
+@media screen and (max-width:576px) {
+    .ul-list-style{
+        margin-top: 0;
+    }
+}
